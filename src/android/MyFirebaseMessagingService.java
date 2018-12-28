@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.media.RingtoneManager;
 import android.net.Uri;
+import android.os.Build;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import java.util.Map;
@@ -34,7 +35,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         // Also if you intend on generating your own notifications as a result of a received FCM
         // message, here is where that should be initiated. See sendNotification method below.
         Log.d(TAG, "==> MyFirebaseMessagingService onMessageReceived");
-        
+
         if(remoteMessage.getNotification() != null){
             Log.d(TAG, "\tNotification Title: " + remoteMessage.getNotification().getTitle());
             Log.d(TAG, "\tNotification Message: " + remoteMessage.getNotification().getBody());
