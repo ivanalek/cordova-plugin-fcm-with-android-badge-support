@@ -1,15 +1,15 @@
 {
   "version": "2.4.0",
-  "name": "cordova-plugin-fcm-with-dependecy-updated",
+  "name": "cordova-plugin-fcm-with-android-badge-support",
   "cordova_name": "Cordova FCM Push Plugin",
-  "description": "Google Firebase Cloud Messaging Cordova Push Plugin fork with dependecy updated",
+  "description": "Google Firebase Cloud Messaging Cordova Push Plugin fork with android badge support",
   "license": "MIT",
   "repo": "",
   "issue": "",
-  "author": "André Augusto Tissot",
+  "author": "Ivan Aleksovski",
   "repository": {
     "type": "git",
-    "url": "https://github.com/andrehtissot/cordova-plugin-fcm-with-dependecy-updated"
+    "url": "https://github.com/ivanalek/cordova-plugin-fcm-with-dependecy-updated"
   },
   "keywords": [
     "ecosystem:cordova",
